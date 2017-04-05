@@ -96,7 +96,7 @@ class Gcm extends BaseAdapter
             $newClient = new \Zend\Http\Client(
                 null,
                 [
-                    'adapter' => 'Zend\Http\Client\Adapter\Socket',
+                    'adapter' => 'Zend\Http\Client\Adapter\Curl',
                     'sslverifypeer' => false
                 ]
             );

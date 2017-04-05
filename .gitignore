@@ -2,3 +2,5 @@ bin
 composer.lock
 vendor/
 web/
+.idea
+.DS_Store
